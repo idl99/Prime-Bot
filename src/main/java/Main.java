@@ -18,10 +18,12 @@ public class Main {
 
         Twitter twitter = tf.getInstance();
 
-        twitter.setOAuthConsumer("TsCqJshf3gl3Q10o5hdyZyyck","vqEG7IRVuH8EDjHA2dd515Ib9XAaFfy1Tydn5QUUCpmNjjOIiI");
+        // Insert your OuthAuthConsumer as parameter
+        // Test OAuthConsumer has been removed due to security reasons
+        twitter.setOAuthConsumer("","");
 
-        twitter.setOAuthAccessToken(new AccessToken("902734843372384256-LbNRBSiqdAx1hFqmEPMik6h8JiJYVfo",
-                "9cyMxVJLBBsv1LefpKFwkS72W1wyHU5bhnpqvhUv2lIeO"));
+        twitter.setOAuthAccessToken(new AccessToken("","")); // Insert your OuthAuthAccessTokenString as parameter
+                                                             // Test OAuthAccessToken has been removed due to security reasons
 
         try {
             // Search query filter string
